@@ -11,7 +11,7 @@ public class ExemploController {
 	
 	@GetMapping(value = "/{nome}")
 	public String exemplo(@PathVariable("nome") String nome) {
-		 return "Olá " + nome;
+		 return "Seja bem vindo " + nome;
 	}
 
 }
